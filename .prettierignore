@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+results
+.run
+.serverless
+reports
+package-lock.json
+# Ignore all HTML files:
+**/*.html
+**/*.md
+
+# Ohm generated files
+**/*.ohm-bundle.*
+
+*.yaml
+*.yml
+*.hbs
+

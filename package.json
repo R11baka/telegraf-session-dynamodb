@@ -6,6 +6,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint src  --max-warnings 10",
+    "prettier-check": "npx prettier --config .prettierrc . --check",
+    "prettier-format": "npx prettier --config .prettierrc . --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

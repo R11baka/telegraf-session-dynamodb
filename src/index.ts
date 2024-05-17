@@ -1,3 +1,3 @@
-import {DynamoDbStore} from "./dynamo-db";
+import { DynamoDbStore } from "./dynamo-db";
 
-export {DynamoDbStore};
+export { DynamoDbStore };

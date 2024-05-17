@@ -1,0 +1,33 @@
+{
+  "name": "telegraf-session-dynamodb",
+  "version": "0.1.0",
+  "description": "DynamoDB store adapters for Telegraf",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src  --max-warnings 10",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegraf",
+    "session",
+    "dynamodb"
+  ],
+  "author": "r11baka@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.12",
+    "eslint": "^8.57.0",
+    "globals": "^15.2.0",
+    "prettier": "3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.9.0"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-dynamodb": "^3",
+    "telegraf": ">=4.12.0"
+  }
+}

@@ -1,7 +1,8 @@
 {
   "name": "telegraf-dynamodb-session",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "DynamoDB store adapters for Telegraf",
+  "homepage": "https://github.com/R11baka/telegraf-session-dynamodb/blob/master/readme.md",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "engines": {

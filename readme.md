@@ -4,7 +4,7 @@ Session store in DynamoDB for telegraf bot framework
 
 ## Installation
 
-Install my-project with npm
+Install telegraf-session-dynamodb with npm
 
 ```bash
   npm install telegraf-session-dynamodb

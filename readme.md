@@ -2,10 +2,6 @@
 
 Session store in DynamoDB for telegraf bot framework
 
-# DynamoDB session for [Telegraf](https://github.com/telegraf/telegraf)
-
-Session store in DynamoDB for telegraf bot framework
-
 ## Installation
 
 Install my-project with npm

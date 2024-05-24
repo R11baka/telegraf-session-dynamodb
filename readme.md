@@ -12,7 +12,9 @@ Install my-project with npm
 
 ## Prerequites
 1. Installed @aws-sdk/client-dynamodb
-2. Table for storing sessions
+2. Table for storing sessions, by default is telegraf-sessions. With partition key **key**
+Example of table
+   ![DynamoDB settings](./doc/dynamo-db-settings.png "DynamoDb settings")
 
 ## How to use ?
 You have to pass in DynamoDb store 2 parameters. region where you created table and name of the table. 
